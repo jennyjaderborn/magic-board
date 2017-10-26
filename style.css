@@ -32,6 +32,16 @@ header {
 
 .row {
     background-color: purple;
-    height: 10%;
+    /*height: 100%; funkar också*/
+    flex-grow: 1;
     width: 100%;
+    display: flex;
+}
+
+.square {
+    min-width: 50px;
+    /*min-height: 0px;*/
+    background-color: pink;
+    flex-basis: auto;
+    flex-grow: 1;
 }
